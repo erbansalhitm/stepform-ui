@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1f1f1;
+  padding: 40px 0;
+}
+
+.container{
+  width: 600px;
+  margin: 0 auto;
+}
+form .MuiStepper-horizontal{
+  margin-bottom: 40px;
+}
+form{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 40px 40px;
+}
+form fieldset{
+  padding: 0;
+  border:none;
+  margin-bottom: 50px;
+}
+form fieldset label{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 15px;
+  color: #1c85c6;
+  display: flex;
+  align-items: center;
+}
+form fieldset label svg{
+  width: 18px  !important;
+  height: 18px !important;
+  margin-left: 5px;
+  color: #999;
+}
+form ul{
+  list-style: none;
+  padding-left: 15px;
+  margin-left: 0;
+}
+form ul li{
+  display: flex;
+}
+form ul li .right-content{
+  margin-left: 20px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  flex: 1;
+}
+form .checkbox-control{
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+form .check-icon{
+  text-align: center;
+}
+form .check-icon svg{
+  color: #09bc06;
+  font-size: 80px;
+}
+form .check-icon h4{
+  margin-top: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+form ul li .right-content h4{
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+.MuiStepConnector-completed .MuiStepConnector-lineHorizontal, .MuiStepConnector-active .MuiStepConnector-lineHorizontal{
+  border-color:#3fb5b0;
+}
+form ul li .right-content p{
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+.final-button.action-btn{
+  text-align: center;
+  justify-content: center;
+}
+form fieldset .MuiFormControl-root, form fieldset .MuiFilledInput-root{
+  display: block;
+}
+form .MuiStepper-root{
+  padding: 0;
+}
+form .action-btn{
+  display: flex;
+  justify-content: flex-end;
+}
+form .action-btn  button{
+  font-size: 14px;
+  padding: 7px 15px;
+}
+form  p{
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 22px;
+  padding-bottom: 25px;
+}
+form .MuiStep-horizontal{
+  padding: 0;
+}
+form .MuiStepLabel-iconContainer{
+  padding: 0;
+}
+form .MuiStepConnector-lineHorizontal{
+  border-width: 6px;
+}
+form .action-btn .MuiButton-containedPrimary{
+  background-color: #3fb5b0;
+  border:1px solid #3fb5b0;
+}
+form .back-btn{
+  color: #3fb5b0;
+}
+form .MuiStepIcon-root.MuiStepIcon-active, form .MuiStepIcon-root.MuiStepIcon-completed{
+  color: #3fb5b0;
+}
+form h1{
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #1c85c6;
+}
+form .MuiFilledInput-input{
+  padding: 17px 12px 17px;
+}
+form h2{
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+form .more-btns{
+  justify-content: space-between;
+}
+form .right-side-btn .save-btn{
+  color: #3fb5b0;
+  border:1px solid #3fb5b0;
+  background-color: transparent;
+  margin-right: 10px;
+}
